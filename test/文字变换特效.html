@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas+原生js实现立体式文字变换特效</title>
+    <style>
+        * {margin:0;padding:0;}
+        body {background:#000;}
+    </style>
+</head>
+<body>
+    <canvas id="canvas" style="position:absolute; top:0; left:0;"></canvas>
+    <div id="buffer" style="display:none;"></div>
+    <script type="text/javascript" src="js/文字变换特效.js" ></script>
+	<div style="text-align: center; position: fixed; bottom: 0; width: 100%; line-height: 150%;
+		 background:rgba(0,0,0,0.1); border-top: 1px solid rgba(255,255,255,.1); z-index: 11000;
+		  color:rgba(255,255,255,.4); font-size: 12px; padding: 5px 0;">
+	</div>
+</body>
+</html>
